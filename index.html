@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Estephany Delphim | Lash lifting, Brow lamination e Estética em Niterói</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+:root{--olive:#3a3f22;--olive2:#4e5530;--sage:#8a9a5b;--gold:#c2a566;--paper:#f1f2e8;--ink:#23261a;--muted:#5d6148;--line:#cfd2bb;--bg:var(--paper);--fg:var(--ink);--hero-bg:var(--olive);--hero-fg:#f1f2e8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1d12;--fg:#e9ebdc;--muted:#a9ad92;--line:#3a3d28;--hero-bg:#262a15}}
+:root[data-theme="dark"]{--bg:#1b1d12;--fg:#e9ebdc;--muted:#a9ad92;--line:#3a3d28;--hero-bg:#262a15}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:300 17px/1.65 Jost,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;margin:0;line-height:1.05}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;background:var(--gold);color:#23261a;text-decoration:none;padding:14px 28px;border-radius:999px;font-weight:500;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:none;border:1px solid currentColor;color:inherit}
+
+header{background:var(--hero-bg);color:var(--hero-fg);position:relative;overflow:hidden}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:15px}
+nav .mono{font-family:"Cormorant Garamond",serif;font-size:26px;letter-spacing:.08em;color:var(--gold);border:1px solid var(--gold);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;text-decoration:none}
+nav div a{margin-left:22px;text-decoration:none;opacity:.85}
+.hero{padding:72px 0 110px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(52px,9vw,112px);font-weight:400;letter-spacing:-.01em;animation:rise .9s ease both}
+.hero h1 em{display:block;color:var(--gold);font:400 .62em/1.1 "Pinyon Script","Cormorant Garamond",cursive;margin-top:.15em;letter-spacing:0}
+.script{font-family:"Pinyon Script","Cormorant Garamond",cursive;font-weight:400}
+.wm{position:absolute;right:-30px;bottom:-90px;font:400 420px/1 "Cormorant Garamond",serif;color:transparent;-webkit-text-stroke:1px rgba(194,165,102,.28);pointer-events:none;user-select:none}
+.star{color:var(--gold);display:inline-block;animation:tw 3s ease-in-out infinite}
+@keyframes tw{50%{transform:scale(.7) rotate(20deg);opacity:.6}}
+.lash{stroke:#f1f2e8;stroke-width:2.2;stroke-linecap:round;fill:none;stroke-dasharray:60;stroke-dashoffset:60;animation:draw .7s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.tick{background:var(--gold);color:#23261a;overflow:hidden;white-space:nowrap;padding:12px 0;font:italic 400 24px "Cormorant Garamond",serif}
+.tick div{display:inline-block;padding-left:100%;animation:run 28s linear infinite}
+.tick span{margin:0 22px}
+@keyframes run{to{transform:translateX(-100%)}}
+.hero p{max-width:34ch;margin:28px 0 36px;opacity:.88;font-size:19px}
+.hero .actions{display:flex;gap:14px;flex-wrap:wrap}
+.eye{aspect-ratio:3/4;max-width:340px;justify-self:end;width:100%;border-radius:200px 200px 16px 16px;background:radial-gradient(ellipse at 50% 40%,#8a9a5b 0,#5b6838 45%,#3a3f22 100%);border:1px solid var(--gold);display:grid;place-items:center;position:relative}
+.eye span{font:italic 400 18px "Cormorant Garamond",serif;color:#f1f2e8;opacity:.8;text-align:center;padding:0 24px}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.tick div,.star{animation:none;padding-left:0}.lash{animation:none;stroke-dashoffset:0}.hero h1{animation:none}.btn{transition:none}}
+
+section{padding:88px 0}
+h2{font-size:clamp(36px,5vw,58px);margin-bottom:12px}
+.lead{color:var(--muted);max-width:52ch;margin:0 0 44px}
+
+.svc{border-top:1px solid var(--line)}
+.svc li{list-style:none;display:grid;grid-template-columns:1fr 1.4fr auto;gap:20px;align-items:baseline;padding:26px 0;border-bottom:1px solid var(--line)}
+.svc{padding:0;margin:0}
+.svc h3{font-size:32px}
+.svc p{margin:0;color:var(--muted)}
+.svc a{font-size:15px;color:var(--olive2);font-weight:500}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .svc a{color:var(--gold)}}
+
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gal div{aspect-ratio:3/4;border-radius:8px;display:flex;align-items:flex-end;padding:14px;font-size:14px;color:#f1f2e8}
+.gal div:nth-child(1){background:linear-gradient(160deg,#6c7a45,#3a3f22)}
+.gal div:nth-child(2){background:linear-gradient(160deg,#a3ad7c,#6c7a45);margin-top:28px}
+.gal div:nth-child(3){background:linear-gradient(160deg,#4e5530,#262a15)}
+.gal div:nth-child(4){background:linear-gradient(160deg,#8a9a5b,#4e5530);margin-top:28px}
+.note{font-size:14px;color:var(--muted);margin-top:18px}
+
+.info{background:var(--hero-bg);color:var(--hero-fg)}
+.info .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.info h3{font-size:28px;color:var(--gold);margin-bottom:8px}
+.info p{margin:0;opacity:.88}
+
+.cta{text-align:center}
+.cta h2{max-width:16ch;margin:0 auto 28px;font:400 clamp(48px,8vw,84px)/1.05 "Pinyon Script","Cormorant Garamond",cursive}
+footer{padding:28px 0 40px;text-align:center;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));background:#25a15a;color:#fff;text-decoration:none;padding:13px 20px;border-radius:999px;font-weight:500;font-size:15px;box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:5}
+
+@media (max-width:760px){
+ .hero{grid-template-columns:1fr;padding:40px 0 70px}
+ .eye{justify-self:start;max-width:240px}
+ .svc li{grid-template-columns:1fr;gap:6px}
+ .gal{grid-template-columns:repeat(2,1fr)}
+ .info .cols{grid-template-columns:1fr;gap:28px}
+ nav div a:not(.keep){display:none}
+ section{padding:64px 0}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="wm" aria-hidden="true">ED</div>
+ <div class="wrap" style="position:relative">
+  <nav>
+   <a class="mono" href="#" aria-label="Início">ED</a>
+   <div><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#atendimento">Atendimento</a><a class="keep" href="#agendar">Agendar</a></div>
+  </nav>
+  <div class="hero">
+   <div>
+    <h1>Estephany Delphim<em>olhar e pele em Niterói</em></h1>
+    <p>Lash lifting, brow lamination e tratamentos que realçam o que você já tem, com cuidado em cada detalhe.</p>
+    <div class="actions">
+     <a class="btn" href="https://wa.me/55XXXXXXXXXXX?text=Oi%20Estephany!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+     <a class="btn ghost" href="#servicos">Ver serviços</a>
+    </div>
+   </div>
+   <div class="eye" role="img" aria-label="Ilustração de olho com cílios em lash lifting">
+    <svg viewBox="0 0 300 400" width="100%" aria-hidden="true">
+     <path d="M45 235 Q150 265 255 235" stroke="#c2a566" stroke-width="1.5" fill="none"/>
+     <circle cx="150" cy="222" r="36" fill="#8a9a5b" stroke="#f1f2e8" stroke-width="1"/>
+     <circle cx="150" cy="222" r="15" fill="#23261a"/><circle cx="141" cy="213" r="5" fill="#f1f2e8"/>
+     <path d="M45 235 Q150 130 255 235" stroke="#f1f2e8" stroke-width="3" fill="none"/>
+     <g id="lashes"></g>
+     <path d="M70 120 Q150 85 235 112" stroke="#c2a566" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </svg>
+   </div>
+   <script>
+   (function(){var g=document.getElementById('lashes'),n=15;
+   for(var i=0;i<n;i++){var t=(i+.5)/n,x=(1-t)*(1-t)*45+2*t*(1-t)*150+t*t*255,y=(1-t)*(1-t)*235+2*t*(1-t)*130+t*t*235;
+   var a=(t-.5)*1.5,L=34+Math.sin(t*Math.PI)*16,x2=x+Math.sin(a)*L*1.1+(t-.5)*30,y2=y-Math.cos(a)*L;
+   var p=document.createElementNS('http://www.w3.org/2000/svg','path');
+   p.setAttribute('d','M'+x.toFixed(1)+' '+(y*0+ (235-(1-t)*(1-t)*0)).toFixed(1)+' ');
+   p.setAttribute('d','M'+x.toFixed(1)+' '+(((1-t)*(1-t)*235+2*t*(1-t)*185+t*t*235)).toFixed(1)+' Q'+((x+x2)/2+(t-.5)*8).toFixed(1)+' '+((y+y2)/2).toFixed(1)+' '+x2.toFixed(1)+' '+y2.toFixed(1));
+   p.setAttribute('class','lash');p.style.animationDelay=(.4+i*.06)+'s';g.appendChild(p);}})();
+   </script>
+  </div>
+ </div>
+</header>
+<div class="tick" aria-hidden="true"><div><span>lash lifting</span><span class="star">✦</span><span>brow lamination</span><span class="star">✦</span><span>estrias</span><span class="star">✦</span><span>depilação</span><span class="star">✦</span><span>spa labial</span><span class="star">✦</span><span>nails</span><span class="star">✦</span><span>lash lifting</span><span class="star">✦</span><span>brow lamination</span><span class="star">✦</span><span>estrias</span><span class="star">✦</span></div></div>
+
+<section id="servicos">
+ <div class="wrap">
+  <h2 class="script" style="font-size:clamp(52px,7vw,84px)">Serviços <span class="star">✦</span></h2>
+  <p class="lead">Escolha o cuidado que combina com você e agende direto, sem formulário.</p>
+  <ul class="svc">
+   <li><h3>Lash lifting</h3><p>Cílios curvados, alongados e com mais definição, sem precisar de curvex ou extensão.</p><a href="https://wa.me/55XXXXXXXXXXX?text=Quero%20agendar%20Lash%20lifting" target="_blank" rel="noopener">Agendar</a></li>
+   <li><h3>Brow lamination</h3><p>Sobrancelhas alinhadas, preenchidas e com aquele efeito de volume natural.</p><a href="https://wa.me/55XXXXXXXXXXX?text=Quero%20agendar%20Brow%20lamination" target="_blank" rel="noopener">Agendar</a></li>
+   <li><h3>Tratamento de estrias</h3><p>Protocolo para melhorar a textura e a aparência da pele, com acompanhamento.</p><a href="https://wa.me/55XXXXXXXXXXX?text=Quero%20saber%20sobre%20Tratamento%20de%20estrias" target="_blank" rel="noopener">Agendar</a></li>
+   <li><h3>Depilação</h3><p>Atendimento cuidadoso e confortável, em ambiente reservado.</p><a href="https://wa.me/55XXXXXXXXXXX?text=Quero%20agendar%20Depila%C3%A7%C3%A3o" target="_blank" rel="noopener">Agendar</a></li>
+   <li><h3>Spa labial e nails</h3><p>Lábios hidratados e macios, e unhas feitas com acabamento impecável.</p><a href="https://wa.me/55XXXXXXXXXXX?text=Quero%20agendar%20Spa%20labial%20ou%20Nails" target="_blank" rel="noopener">Agendar</a></li>
+  </ul>
+ </div>
+</section>
+
+<section id="resultados" style="padding-top:0">
+ <div class="wrap">
+  <h2 class="script" style="font-size:clamp(52px,7vw,84px)">Resultados <span class="star">✦</span></h2>
+  <p class="lead">Antes e depois de clientes reais, para você ver o acabamento de perto.</p>
+  <div class="gal">
+   <div>Lash lifting</div><div>Brow lamination</div><div>Estrias</div><div>Nails</div>
+  </div>
+  <p class="note">Nesta prévia, os quadros são espaços reservados. No site final entram as fotos do seu Instagram.</p>
+ </div>
+</section>
+
+<section id="atendimento" class="info">
+ <div class="wrap">
+  <h2 class="script" style="margin-bottom:40px;font-size:clamp(52px,7vw,84px)">Atendimento</h2>
+  <div class="cols">
+   <div><h3>Onde</h3><p>Niterói, RJ<br>Endereço completo enviado ao confirmar o horário.</p></div>
+   <div><h3>Como agendar</h3><p>Chame no WhatsApp, escolha o serviço e combine o melhor dia e horário.</p></div>
+   <div><h3>Antes de vir</h3><p>Dúvidas sobre lash lifting ou preparo da pele? Tire todas por mensagem.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="agendar" class="cta">
+ <div class="wrap">
+  <h2>Pronta para o seu horário?</h2>
+  <a class="btn" href="https://wa.me/55XXXXXXXXXXX?text=Oi%20Estephany!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+ </div>
+</section>
+
+<footer><div class="wrap">Estephany Delphim, Niterói · @esther_delphim<br>Prévia de design, conteúdo ilustrativo.</div></footer>
+
+<a class="fab" href="https://wa.me/55XXXXXXXXXXX?text=Oi%20Estephany!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">WhatsApp</a>
+</body>
+</html>
